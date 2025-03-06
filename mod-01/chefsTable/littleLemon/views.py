@@ -26,3 +26,6 @@ def formview(request):
 </form>
 
 """)
+
+def repath(request, d):
+    return HttpResponse(f"this is {d}")
